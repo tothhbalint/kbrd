@@ -68,9 +68,9 @@
     layer_1 {
       label = "RAISE";
       bindings = <
-        &none &kp EXCL &kp AT    &kp HASH  &kp DOLLAR &kp LBKT   &kp RBKT  &kp PLUS  &kp MINUS &kp ASTRK         &kp PRCNT &none
-        &none &kp AMPS &kp UNDER &kp DQT   &kp SQT    &kp LPAR   &kp RPAR  &kp ENTER &kp ESC   &kp LC(B)         &kp DEL   &none
-        &none &kp PIPE &kp TILDE &kp CARET &kp GRAVE  &kp LBRC   &kp RBRC  &kp EQUAL &kp TAB   &kp LG(LC(SPACE)) &kp BSLH  &none
+        &kp EXCL &kp AT    &kp HASH  &kp DOLLAR &kp LBKT   &kp RBKT  &kp PLUS  &kp MINUS &kp ASTRK         &kp PRCNT
+        &kp AMPS &kp UNDER &kp DQT   &kp SQT    &kp LPAR   &kp RPAR  &kp ENTER &kp ESC   &kp LC(B)         &kp DEL
+        &kp PIPE &kp TILDE &kp CARET &kp GRAVE  &kp LBRC   &kp RBRC  &kp EQUAL &kp TAB   &kp LG(LC(SPACE)) &kp BSLH
                                  &none     &kp BSPC   &kp LSHFT  &kp SPACE &none     &none
       >;
     };
@@ -81,9 +81,9 @@
     layer_2 {
       label = "LOWER";
       bindings = <
-        &none &none        &none    &kp UP   &none     &none          &kp ASTRK  &kp N7 &kp N8 &kp N9 &kp MINUS &none
-        &none &kp LA(LEFT) &kp LEFT &kp DOWN &kp RIGHT &kp LA(RIGHT)  &kp SLASH  &kp N4 &kp N5 &kp N6 &kp PLUS  &none
-        &none &none        &none    &none    &none     &none          &kp N0     &kp N1 &kp N2 &kp N3 &kp DOT   &none
+        &none        &none    &kp UP   &none     &none          &kp ASTRK  &kp N7 &kp N8 &kp N9 &kp MINUS
+        &kp LA(LEFT) &kp LEFT &kp DOWN &kp RIGHT &kp LA(RIGHT)  &kp SLASH  &kp N4 &kp N5 &kp N6 &kp PLUS
+        &none        &none    &none    &none     &none          &kp N0     &kp N1 &kp N2 &kp N3 &kp DOT
                                     &to L0   &kp BSPC  &kp LSHFT      &kp SPACE  &to L2 &none
       >;
     };
@@ -94,9 +94,9 @@
     layer_3 {
       label = "SYSTEM";
       bindings = <
-        &none &kp LC(LG(Q)) &none &none         &none          &kp PG_UP  &kp C_VOL_UP &kp C_PLAY &kp C_PREV &kp C_NEXT &none      &none
-        &none &none         &none &kp LG(LS(X)) &kp LG(LS(N4)) &kp PG_DN  &kp C_VOL_DN &kp LC(N1) &kp LC(N2) &kp LC(N3) &kp LC(N4) &none
-        &none &none         &none &none         &none          &none      &kp C_MUTE   &none      &bt BT_PRV &bt BT_NXT &bt BT_CLR &none
+        &kp LC(LG(Q)) &none &none         &none          &kp PG_UP  &kp C_VOL_UP &kp C_PLAY &kp C_PREV &kp C_NEXT &none
+        &none         &none &kp LG(LS(X)) &kp LG(LS(N4)) &kp PG_DN  &kp C_VOL_DN &kp LC(N1) &kp LC(N2) &kp LC(N3) &kp LC(N4)
+        &none         &none &none         &none          &none      &kp C_MUTE   &none      &bt BT_PRV &bt BT_NXT &bt BT_CLR
                             &none &kp BSPC      &kp LSHFT      &kp SPACE  &to L0       &none
       >;
     };
