@@ -55,9 +55,9 @@
     layer_0 {
       label = "ALPHA";
       bindings = <
-        &none &kp Q &kp W       &kp E       &kp R        &kp T       &kp Y &kp U        &kp I       &kp O       &kp P     &none
-        &none &kp A &lhr LALT S &lhr LCMD D &lhr LCTRL F &kp G       &kp H &rhr LCTRL J &rhr LCMD K &rhr LALT L &kp SEMI  &none
-        &none &kp Z &kp X       &kp C       &kp V        &kp B       &kp N &kp M        &kp COMMA   &kp DOT     &kp SLASH &none
+        &kp Q &kp W       &kp E       &kp R        &kp T       &kp Y &kp U        &kp I       &kp O       &kp P
+        &kp A &lhr LALT S &lhr LCMD D &lhr LCTRL F &kp G       &kp H &rhr LCTRL J &rhr LCMD K &rhr LALT L &kp SEMI
+        &kp Z &kp X       &kp C       &kp V        &kp B       &kp N &kp M        &kp COMMA   &kp DOT     &kp SLASH
                                 &kp BSPC    &mo L2       &kp LSHFT   &kp SPACE          &mo L1      &sl L3
       >;
     };
